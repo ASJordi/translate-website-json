@@ -5,12 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sitio Multilenguaje</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <button class="translate" id="es">Español</button>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#"><img src="img/logo.png" alt="Logotipo"></a>                
+            </div>
+            <div class="lang-menu">
+                <div class="selected-lang translate" id="es">
+                    Español
+                </div>
+                <ul>
+                    <li><a href="#" class="translate en" id="en">English</a></li>
+                    <li><a href="#" class="translate es" id="es">Spanish</a></li>
+                    <li><a href="#" class="translate fr" id="fr">French</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- <button class="translate" id="es">Español</button>
     <button class="translate" id="en">English</button>
-    <button class="translate" id="fr">Francés</button>
-    <hr>
+    <button class="translate" id="fr">Francés</button> -->
+    <br><br>
     <p class="lang" key="test1">Esto es un texto de prueba</p>
     <p class="lang" key="test2">Este parrafo esta en Español</p>
 
